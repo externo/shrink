@@ -1,0 +1,16 @@
+<div class="box box-success" ng-include="'states/admin/article/article-new.html'" ng-show="Article.openForm"></div>
+<div class="box box-primary" ng-hide="Article.openArticle">
+  <div class="box-header with-border">
+    <h3 class="box-title"><strong>Статии</strong></h3>
+    <div class="pull-right" ng-hide="Article.openForm">
+      <button type="button" class="btn btn-success" ng-click="Article.toggleForm()">Добави статия</button>
+    </div>
+    <br/>
+  </div>
+
+  <div class="box-header" ng-include="'states/admin/article/article-search.html'"></div>
+
+  <div class="box-body" ng-include="'states/admin/article/article-list.html'"></div>
+</div>
+
+<div class="box box-warning" ng-include="'states/admin/article/article-current.html'" ng-show="Article.openArticle"></div>
