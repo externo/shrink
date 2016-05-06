@@ -8,6 +8,11 @@ module.exports = function (app, mongo, db) {
     });
   });
 
+  app.post('/admin/user', function (req, res) {
+    db.collection('users').insertOne( req.body);
+    res.end();
+  });
+
   app.put('/admin/user/:id', function (req, res) {
     var articleId = new mongo.ObjectID(req.params.id);
     db.collection('users').updateOne(
