@@ -1,6 +1,14 @@
 module.exports = function (app, mongo, db) {
 
   // Users
+  app.get('/admin/user', function (req, res) {
+    db.collection('users').find()
+      .toArray(function (err, users) {
+        res.json(users);
+      }
+    );
+  });
+
   app.get('/admin/user/:id', function (req, res) {
     var userId = new mongo.ObjectID(req.params.id);
     db.collection('users').findOne({_id: userId}, function (err, doc) {
