@@ -1,0 +1,12 @@
+<div class="col-md-4">
+  <input type="text" class="form-control icon" ng-model="Article.search.text" placeholder="&#61442; Търси...">
+</div>
+<div class="col-md-4">
+  <select class="form-control" ng-model="Article.search.category">
+    <option value="" selected="selected">&#xf0c5; КАТЕГОРИЯ</option>
+    <option ng-repeat="category in Article.categories | orderBy: 'name'">{{category.name}}</option>
+  </select>
+</div>
+<div class="col-md-4">
+  <input type="text" class="form-control" datetime-range ng-model="Article.search.datetime">
+</div>

@@ -1,0 +1,51 @@
+<div class="box-header with-border">
+  <h3 class="box-title"><strong>Редактиране на статия {{Article.currentArticle.title}}</strong></h3>
+</div>
+
+<div class="box-body">
+  <form name="formEditArticle">
+    <div class="col-md-12 separate">
+      <label>Статия</label>
+      <br/>
+
+      <div class="col-md-3">
+        <label for="editArticle">
+          <img class="col-md-12 col-sm-12 col-xs-12" src="{{Article.baseUrl}}/admin/file/{{Article.currentArticle.image}}"/>
+        </label>
+        <input id="editArticle" type="file" media-preview
+               file-model="Article.editImage" name="file" ng-model="filename" valid-file />
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-8">
+        <div class="input-group">
+          <div class="input-group-addon"><i class="fa fa-files-o"></i></div>
+          <select class="form-control" ng-model="Article.currentArticle.category">
+            <option value="" disabled>КАТЕОГОРИЯ</option>
+            <option ng-repeat="category in Article.categories | orderBy: 'name'">{{category.name}}</option>
+          </select>
+        </div>
+        <div class="input-group">
+          <div class="input-group-addon"><i class="fa fa-header"></i></div>
+          <input type="text" class="form-control" placeholder="ЗАГЛАВИЕ" ng-model="Article.currentArticle.title">
+        </div>
+      </div>
+      <div class="input-group">
+        <div class="input-group-addon"><i class="fa fa-sticky-note"></i></div>
+        <div text-angular ng-model="Article.currentArticle.content"></div>
+      </div>
+    </div>
+  </form>
+
+  <div>
+    <label class="text-red" ng-show="formEditArticle.client.$error.required">
+      <i class="fa fa-warning"></i> Заглавие, категория и съдържание на статията са задължителни полета</label>
+
+    <div class="btn-group pull-right">
+      <button type="button" class="btn btn-warning" ng-click="Article.editArticle()"
+              ng-disabled="formEditArticle.$invalid">
+        Запази</button>
+      <button type="button" class="btn btn-default" ng-click="Article.cancelArticle()">Отмени</button>
+      <button type="button" class="btn btn-danger" ng-click="Article.removeArticle()">Изтрий</button>
+    </div>
+  </div>
+</div>

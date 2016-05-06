@@ -1,0 +1,51 @@
+<div class="box-header with-border">
+  <h3 class="box-title">Добави нова статия</h3>
+</div>
+
+<!-- /.box-header -->
+<div class="box-body">
+  <form name="formNewArticle">
+    <div class="col-md-12 separate">
+      <label>Дело</label>
+      <br/>
+
+      <div class="col-md-3">
+        <label for="newArticle" class="imageContainer">
+          <img class="col-md-12 col-sm-12 col-xs-12" src="states/admin/article/freud.jpg"/>
+        </label>
+        <input id="newArticle" type="file" media-preview
+               file-model="Article.newImage" name="file" ng-model="filename" valid-file required/>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-8">
+        <div class="input-group">
+          <div class="input-group-addon"><i class="fa fa-files-o"></i></div>
+          <select class="form-control" ng-model="Article.newArticle.category">
+            <option value="" selected disabled>КАТЕГОРИЯ</option>
+            <option ng-repeat="category in Article.categories | orderBy: 'name'">{{category.name}}</option>
+          </select>
+        </div>
+        <div class="input-group">
+          <div class="input-group-addon"><i class="fa fa-header"></i></div>
+          <input type="text" class="form-control" placeholder="ЗАГЛАВИЕ" ng-model="Article.newArticle.title">
+        </div>
+      </div>
+      <div class="input-group">
+        <div class="input-group-addon"><i class="fa fa-sticky-note"></i></div>
+        <div text-angular ng-model="Article.newArticle.content"></div>
+      </div>
+    </div>
+  </form>
+
+  <div>
+    <label class="text-red" ng-show="formNewArticle.client.$error.required || formNewArticle.type.$error.required">
+      <i class="fa fa-warning"></i> Категория, заглавие и съдържание на статията са задължителни полета</label>
+
+    <div class="btn-group pull-right">
+      <button class="btn btn-success" ng-click="Article.addArticle()"
+              ng-disabled="formNewArticle.client.$error.required || formNewArticle.type.$error.required">
+        Добави</button>
+      <button class="btn btn-default" ng-click="Article.toggleForm()">Отмени</button>
+    </div>
+  </div>
+</div>
