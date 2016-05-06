@@ -50,7 +50,7 @@ function ProfileController(baseUrl, ProfileService, FileService, NotyService, So
 
   };
 
-  ProfileService.find('572caeb69979de314d877da6', function (res) {
+  ProfileService.find('572cdf4596cd65c2e7dcf311', function (res) {
     Profile.currentProfile = res;
   });
 
