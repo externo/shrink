@@ -2,16 +2,13 @@
 
   <div class="box-header with-border">
     <h3 class="box-title"><strong>Добавяне на категория</strong></h3>
-    <label class="text-red pull-right">
-      <i class="fa fa-warning"></i> Всички полета са задължителни
-    </label>
   </div>
 
   <div class="box-header">
     <form name="formAddCategory">
       <div class="col-md-12">
         <div class="input-group">
-          <input type="text" class="form-control" placeholder="&#xf0f2; Категория" ng-model="Category.category.name" name="name" required>
+          <input type="text" class="form-control" placeholder="&#xf0c5; Категория" ng-model="Category.category.name" name="name" required>
           <div class="input-group-btn">
             <button class="btn btn-success pull-right" ng-click="Category.addCategory()"
                     ng-disabled="formAddCategory.$invalid">

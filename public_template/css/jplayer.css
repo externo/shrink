@@ -1,0 +1,65 @@
+.jp-jplayer{ overflow:hidden;}
+div.jp-audio {
+  color: #5a4024;
+  position:relative; font-size: 16px;font-family: 'metamorphousregular';
+  width:120px;
+  height:40px;
+  margin:0px 0 0 0px ;text-align: left;
+}
+
+
+/* @group CONTROLS */
+
+ul.jp-controls {
+
+  margin:0;
+  display:block;
+  width:120px;
+  height:40px;
+
+}
+
+
+
+/* @end */
+
+
+/* @group volume controls */
+
+
+a.jp-mute,
+a.jp-unmute {
+  width:120px;
+  height:40px;
+  float:left;
+  display:block; text-decoration:none; color:#5a4024;
+}
+a.jp-mute span,
+a.jp-unmute span { color: #d4ae71;font-size: 18px;
+
+}
+a.jp-mute,
+a.jp-unmute {
+  margin-left: 0px;
+}
+
+a.jp-mute {
+  padding-left:0px;
+}
+a.jp-mute:hover {
+
+}
+a.jp-unmute {
+  padding-left:0px;
+  display: none;
+}
+a.jp-unmute:hover {
+
+}
+
+
+
+
+
+
+/* @end */
