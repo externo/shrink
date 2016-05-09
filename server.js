@@ -24,12 +24,12 @@ var authCheck = jwt({
 //app.use('/admin/case', authCheck);
 
 app.use(express.static(__dirname + '/public'));
-//app.use(function(req, res, next) {
-//  res.setHeader("Access-Control-Allow-Origin", "http://delovoditel.gq");
-//  res.setHeader("Access-Control-Allow-Headers", "Authorization, Origin, X-Requested-With, Content-Type, Accept, Key, filename, Metadata, header");
-//  res.setHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
-//  next();
-//});
+app.use(function(req, res, next) {
+  res.setHeader("Access-Control-Allow-Origin", "http://delovoditel.gq, http://localhost:63342");
+  res.setHeader("Access-Control-Allow-Headers", "Authorization, Origin, X-Requested-With, Content-Type, Accept, Key, filename, Metadata, header");
+  res.setHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
+  next();
+});
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 

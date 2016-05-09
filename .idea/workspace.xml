@@ -2,16 +2,781 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8a19397-f6ee-4abc-8c3d-643144aa8402" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_template/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_template/css/jplayer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_template/css/jquery.jscrollpane.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_template/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_template/css/prettyPhoto.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_template/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_template/css/style.css" />
-      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\states\admin\calendar\calendar.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\states\admin\calendar\calendar.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/states/admin/category/category.html" afterPath="$PROJECT_DIR$/public/states/admin/category/category.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/angular-route.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/states/public/article/article.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/jquery-2.2.3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/states/public/profile/profile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/states/public/profile/profile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/states/public/public.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/textAngular-rangy.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/textAngular-sanitize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/textAngular-sanitize.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/textAngular.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/textAngular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/textAngular.min.js" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\bootstrap\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\bootstrap\css\bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\bootstrap\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\bootstrap\fonts\FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\bootstrap\fonts\font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\bootstrap\fonts\fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\bootstrap\fonts\fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\bootstrap\fonts\fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\bootstrap\fonts\fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\bootstrap\fonts\fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\bootstrap\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\bootstrap\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\bootstrap\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\bootstrap\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\bootstrap\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\bootstrap\js\bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\bootstrap\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\bootstrap\js\npm.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\bootstrap\ui-bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\css\AdminLTE.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\css\AdminLTE.min.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\css\skins\_all-skins.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\css\skins\_all-skins.min.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\css\skins\skin-black-light.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\css\skins\skin-black-light.min.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\css\skins\skin-black.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\css\skins\skin-black.min.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\css\skins\skin-blue-light.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\css\skins\skin-blue-light.min.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\css\skins\skin-blue.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\css\skins\skin-blue.min.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\css\skins\skin-green-light.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\css\skins\skin-green-light.min.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\css\skins\skin-green.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\css\skins\skin-green.min.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\css\skins\skin-purple-light.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\css\skins\skin-purple-light.min.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\css\skins\skin-purple.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\css\skins\skin-purple.min.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\css\skins\skin-red-light.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\css\skins\skin-red-light.min.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\css\skins\skin-red.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\css\skins\skin-red.min.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\css\skins\skin-yellow-light.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\css\skins\skin-yellow-light.min.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\css\skins\skin-yellow.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\css\skins\skin-yellow.min.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\img\avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\img\avatar04.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\img\avatar2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\img\avatar3.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\img\avatar5.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\img\boxed-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\img\boxed-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\img\credit\american-express.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\img\credit\cirrus.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\img\credit\mastercard.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\img\credit\mestro.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\img\credit\paypal.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\img\credit\paypal2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\img\credit\visa.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\img\default-50x50.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\img\icons.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\img\photo1.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\img\photo2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\img\photo3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\img\photo4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\img\user1-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\img\user2-160x160.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\img\user3-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\img\user4-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\img\user5-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\img\user6-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\img\user7-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\img\user8-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\js\app.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\js\app.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\js\demo.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\js\pages\dashboard.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\dist\js\pages\dashboard2.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\plugins\calendar\fullcalendar.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\plugins\calendar\fullcalendar.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\plugins\daterangepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\plugins\daterangepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\plugins\moment.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\css\style.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\index.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\.bin\docxtemplater" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\.bin\docxtemplater.cmd" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\angular-route\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\angular-route\angular-route.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\angular-route\angular-route.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\angular-route\angular-route.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\angular-route\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\angular-route\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\angular-route\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\angular\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\angular\angular-csp.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\angular\angular.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\angular\angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\angular\angular.min.js.gzip" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\angular\angular.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\angular\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\angular\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\angular\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\async\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\async\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\async\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\async\dist\async.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\async\dist\async.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\async\lib\async.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\async\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\changelog.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\browser\bluebird.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\browser\bluebird.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\any.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\assert.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\async.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\bind.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\bluebird.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\call_get.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\cancel.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\captured_trace.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\catch_filter.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\context.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\debuggability.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\direct_resolve.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\each.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\errors.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\es5.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\filter.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\finally.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\generators.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\join.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\map.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\method.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\nodeify.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\progress.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\promise.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\promise_array.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\promise_resolver.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\promisify.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\props.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\queue.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\race.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\reduce.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\schedule.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\settle.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\some.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\synchronous_inspection.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\thenables.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\timers.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\using.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\js\main\util.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\bluebird\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\combined-stream\License" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\combined-stream\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\combined-stream\lib\combined_stream.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\combined-stream\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\component-emitter\History.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\component-emitter\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\component-emitter\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\component-emitter\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\component-emitter\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\cookiejar\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\cookiejar\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\cookiejar\cookiejar.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\cookiejar\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\cookiejar\readme.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\cookiejar\tests\test.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\core-util-is\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\core-util-is\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\core-util-is\float.patch" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\core-util-is\lib\util.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\core-util-is\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\core-util-is\test.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\delayed-stream\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\delayed-stream\License" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\delayed-stream\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\delayed-stream\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\delayed-stream\lib\delayed_stream.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\delayed-stream\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\.babelrc" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\.eslintignore" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\browser\docxgenTest.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\browser\docxgenTest.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\browser\main.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\build\angular-expressions.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\build\docxgen.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\build\docxgen.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\build\index.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\build\out.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\cli\config.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\cli\tagExample.docx" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\contributing.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\create_min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\es6\cli.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\es6\compiledTemplate.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\es6\compiledXmlTag.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\es6\docUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\es6\docxgen.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\es6\errors.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\es6\fileTypeConfig.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\es6\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\es6\moduleManager.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\es6\renderCompiled.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\es6\scopeManager.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\es6\subContent.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\es6\templaterState.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\es6\tests\compilation.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\es6\tests\docxtemplater.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\es6\tests\errors.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\es6\tests\speed.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\es6\xmlMatcher.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\es6\xmlTemplater.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\es6\xmlUtil.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\js\cli.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\js\compiledTemplate.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\js\compiledXmlTag.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\js\docUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\js\docxgen.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\js\errors.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\js\fileTypeConfig.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\js\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\js\moduleManager.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\js\renderCompiled.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\js\scopeManager.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\js\subContent.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\js\templaterState.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\js\tests\compilation.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\js\tests\docxtemplater.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\js\tests\errors.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\js\tests\speed.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\js\xmlMatcher.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\js\xmlTemplater.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\js\xmlUtil.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\license.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\logo_small.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\logo_tiny.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\readme.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\robo.yml" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\vendor\FileSaver.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\vendor\jszip-utils-ie.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\vendor\jszip-utils.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\docxtemplater\watch_file_and_run_test.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\extend\.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\extend\.jscs.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\extend\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\extend\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\extend\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\extend\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\extend\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\extend\component.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\extend\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\extend\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\HELP-US-OUT.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\css\font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\css\font-awesome.css.map" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\css\font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\fonts\4.4.0\index.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\fonts\FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\fonts\fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\fonts\fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\fonts\fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\fonts\fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\fonts\fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\less\animated.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\less\bordered-pulled.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\less\core.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\less\fixed-width.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\less\font-awesome.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\less\icons.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\less\larger.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\less\list.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\less\mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\less\path.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\less\rotated-flipped.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\less\screen-reader.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\less\stacked.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\less\variables.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\scss\_animated.scss" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\scss\_bordered-pulled.scss" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\scss\_core.scss" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\scss\_fixed-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\scss\_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\scss\_larger.scss" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\scss\_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\scss\_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\scss\_path.scss" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\scss\_rotated-flipped.scss" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\scss\_screen-reader.scss" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\scss\_stacked.scss" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\scss\_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\font-awesome\scss\font-awesome.scss" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\formidable\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\formidable\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\formidable\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\formidable\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\formidable\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\formidable\lib\file.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\formidable\lib\incoming_form.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\formidable\lib\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\formidable\lib\json_parser.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\formidable\lib\multipart_parser.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\formidable\lib\octet_parser.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\formidable\lib\querystring_parser.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\formidable\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\inherits\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\inherits\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\inherits\inherits.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\inherits\inherits_browser.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\inherits\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\inherits\test.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\_tmp\logo-ion-sound.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\history.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\js\ion.sound.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\js\ion.sound.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\readme.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\beer_can_opening.aac" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\beer_can_opening.mp3" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\beer_can_opening.ogg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\bell_ring.aac" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\bell_ring.mp3" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\bell_ring.ogg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\branch_break.aac" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\branch_break.mp3" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\branch_break.ogg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\button_click.aac" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\button_click.mp3" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\button_click.ogg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\button_click_on.aac" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\button_click_on.mp3" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\button_click_on.ogg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\button_push.aac" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\button_push.mp3" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\button_push.ogg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\button_tiny.aac" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\button_tiny.mp3" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\button_tiny.ogg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\camera_flashing.aac" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\camera_flashing.mp3" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\camera_flashing.ogg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\camera_flashing_2.aac" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\camera_flashing_2.mp3" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\camera_flashing_2.ogg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\cd_tray.aac" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\cd_tray.mp3" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\cd_tray.ogg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\computer_error.aac" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\computer_error.mp3" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\computer_error.ogg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\door_bell.aac" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\door_bell.mp3" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\door_bell.ogg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\door_bump.aac" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\door_bump.mp3" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\door_bump.ogg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\glass.aac" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\glass.mp3" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\glass.ogg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\keyboard_desk.aac" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\keyboard_desk.mp3" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\keyboard_desk.ogg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\light_bulb_breaking.aac" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\light_bulb_breaking.mp3" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\light_bulb_breaking.ogg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\metal_plate.aac" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\metal_plate.mp3" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\metal_plate.ogg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\metal_plate_2.aac" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\metal_plate_2.mp3" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\metal_plate_2.ogg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\pop_cork.aac" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\pop_cork.mp3" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\pop_cork.ogg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\snap.aac" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\snap.mp3" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\snap.ogg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\staple_gun.aac" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\staple_gun.mp3" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\staple_gun.ogg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\tap.aac" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\tap.mp3" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\tap.ogg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\water_droplet.aac" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\water_droplet.mp3" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\water_droplet.ogg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\water_droplet_2.aac" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\water_droplet_2.mp3" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\water_droplet_2.ogg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\water_droplet_3.aac" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\water_droplet_3.mp3" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\ion-sound\sounds\water_droplet_3.ogg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\is-lower-case\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\is-lower-case\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\is-lower-case\is-lower-case.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\is-lower-case\is-lower-case.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\is-lower-case\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\isarray\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\isarray\build\build.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\isarray\component.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\isarray\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\isarray\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jquery\jquery-2.2.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jquery\jquery-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\.codeclimate.yml" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\.jshintignore" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\CHANGES.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\LICENSE.markdown" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\README.markdown" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\dist\jszip.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\dist\jszip.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\lib\arrayReader.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\lib\base64.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\lib\compressedObject.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\lib\compressions.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\lib\crc32.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\lib\dataReader.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\lib\defaults.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\lib\deprecatedPublicUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\lib\flate.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\lib\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\lib\license_header.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\lib\load.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\lib\nodeBuffer.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\lib\nodeBufferReader.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\lib\object.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\lib\signature.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\lib\stringReader.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\lib\stringWriter.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\lib\support.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\lib\uint8ArrayReader.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\lib\uint8ArrayWriter.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\lib\utf8.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\lib\utils.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\lib\zipEntries.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\lib\zipEntry.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\jszip\vendor\FileSaver.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\lower-case-first\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\lower-case-first\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\lower-case-first\lower-case-first.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\lower-case-first\lower-case-first.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\lower-case-first\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\lower-case\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\lower-case\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\lower-case\lower-case.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\lower-case\lower-case.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\lower-case\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\memoizejs\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\memoizejs\memoize.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\memoizejs\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\memoizejs\tests\lib\jasmine-1.1.0\MIT.LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\memoizejs\tests\lib\jasmine-1.1.0\jasmine-html.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\memoizejs\tests\lib\jasmine-1.1.0\jasmine.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\memoizejs\tests\lib\jasmine-1.1.0\jasmine.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\memoizejs\tests\lib\jasmine-1.1.0\jasmine_favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\memoizejs\tests\spec\MemoizeSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\memoizejs\tests\test.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\methods\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\methods\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\methods\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\methods\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\methods\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\mime\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\mime\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\mime\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\mime\build\build.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\mime\build\test.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\mime\cli.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\mime\mime.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\mime\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\mime\types.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\README.markdown" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\demo\allLayouts.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\demo\allTypes.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\demo\animate.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\demo\api.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\demo\buttons.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\demo\consumingAlert.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\demo\customContainer.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\demo\font-awesome\css\font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\demo\font-awesome\fonts\FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\demo\font-awesome\fonts\fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\demo\font-awesome\fonts\fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\demo\font-awesome\fonts\fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\demo\font-awesome\fonts\fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\demo\index.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\demo\issue302.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\demo\jquery-1.7.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\demo\jquery-1.8.0.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\demo\killer.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\demo\notification_html.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\demo\themeBootstrap.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\demo\themeCss.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\demo\usingMaxVisible.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\demo\usingWithAnimate.css.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\demo\usingWithButtons.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\demo\usingWithButtons2.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\demo\usingWithModal.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\demo\usingWithOldOptions.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\js\noty\jquery.noty.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\js\noty\layouts\bottom.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\js\noty\layouts\bottomCenter.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\js\noty\layouts\bottomLeft.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\js\noty\layouts\bottomRight.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\js\noty\layouts\center.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\js\noty\layouts\centerLeft.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\js\noty\layouts\centerRight.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\js\noty\layouts\inline.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\js\noty\layouts\top.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\js\noty\layouts\topCenter.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\js\noty\layouts\topLeft.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\js\noty\layouts\topRight.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\js\noty\packaged\jquery.noty.packaged.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\js\noty\packaged\jquery.noty.packaged.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\js\noty\promise.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\js\noty\themes\bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\js\noty\themes\default.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\js\noty\themes\relax.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\noty.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\noty\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\pako\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\pako\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\pako\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\pako\dist\pako.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\pako\dist\pako.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\pako\dist\pako_deflate.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\pako\dist\pako_deflate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\pako\dist\pako_inflate.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\pako\dist\pako_inflate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\pako\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\pako\lib\deflate.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\pako\lib\inflate.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\pako\lib\utils\common.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\pako\lib\utils\strings.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\pako\lib\zlib\adler32.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\pako\lib\zlib\constants.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\pako\lib\zlib\crc32.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\pako\lib\zlib\deflate.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\pako\lib\zlib\gzheader.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\pako\lib\zlib\inffast.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\pako\lib\zlib\inflate.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\pako\lib\zlib\inftrees.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\pako\lib\zlib\messages.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\pako\lib\zlib\trees.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\pako\lib\zlib\zstream.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\pako\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\rangy\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\rangy\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\rangy\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\rangy\lib\rangy-classapplier.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\rangy\lib\rangy-core.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\rangy\lib\rangy-highlighter.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\rangy\lib\rangy-selectionsaverestore.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\rangy\lib\rangy-serializer.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\rangy\lib\rangy-textrange.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\rangy\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\.bowerrc" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\changelog.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\demo\demo.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\demo\static-demo.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\demo\textAngular.com.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\dist\textAngular-rangy.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\dist\textAngular-sanitize.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\dist\textAngular-sanitize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\dist\textAngular.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\dist\textAngular.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\dist\textAngular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\dist\textAngular.umd.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\dist\textAngularSetup.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\karma-jqlite.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\karma-jquery.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\package.json.orig" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\src\DOM.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\src\demo\demo.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\src\demo\static-demo.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\src\demo\textAngular.com.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\src\factories.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\src\globals.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\src\main.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\src\taBind.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\src\textAngular-sanitize.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\src\textAngular.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\src\textAngularSetup.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\src\validators.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\test\helpers.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\test\taBind\taBind.$formatters.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\test\taBind\taBind._taBlankTest.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\test\taBind\taBind.display.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\test\taBind\taBind.events.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\test\taBind\taBind.sanitize.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\test\taBind\taBind.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\test\taBind\taBind.taReadOnly.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\test\taBind\taBind.undoManager.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\test\taBind\taBind.validation.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\test\taBind\taBind.wordPaste.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\test\taBrowserTag.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\test\taDOM.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\test\taExecCommand\taExecCommand.formatBlock.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\test\taExecCommand\taExecCommand.lists.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\test\taExecCommand\taExecCommand.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\test\taFixChrome.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\test\taMaxText.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\test\taMinText.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\test\taRegisterTool.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\test\taSanitize.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\test\taToolFunctions.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\test\taTools.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\test\textAngular.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\test\textAngularManager.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\test\textAngularSanitize\linky.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\test\textAngularSanitize\ngBindHtml.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\test\textAngularSanitize\sanitize.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\node_modules\textangular\test\textAngularToolbar.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\patterns\molbaIzdSydUdost.docx" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\patterns\molbaIzmProcesPrinuda.docx" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\patterns\molbaOFG.docx" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\patterns\molbaObrIzpDelo.docx" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\patterns\molbaPredstDoc.docx" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\patterns\molbaReabilitacia.docx" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\patterns\molbaZavPrepisIL.docx" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\patterns\naddavatelnoPredlojenie.docx" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\patterns\svidetelstvoSydimost.docx" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\patterns\zayavlenie410.docx" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\states\admin\admin.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\states\admin\article\article-current.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\states\admin\article\article-list.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\states\admin\article\article-new.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\states\admin\article\article-search.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\states\admin\article\article.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\states\admin\article\article.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\states\admin\article\freud.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\states\admin\category\category.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\states\admin\category\category.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\states\admin\history\history.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\states\admin\history\history.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\states\admin\profile\profile.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public\states\admin\profile\profile.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\css\jplayer.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\css\jquery.jscrollpane.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\css\lobster-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\css\lobster-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\css\lobster-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\css\lobster-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\css\metamorphous-regular-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\css\metamorphous-regular-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\css\metamorphous-regular-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\css\metamorphous-regular-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\css\prettyPhoto.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\css\reset.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\css\style.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\about01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\bg1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\bot1.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\button1.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\content_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\footer.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\gallery01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\gallery01_big.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\gallery_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\gallery_bg2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\googleMapLoader.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\h_l1.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\img1.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\img2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\img3.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\img4.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\img5.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\jspArrowDown.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\jspArrowUp.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\jspDrag.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\jspTrack.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\kv0.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\kv0_shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\kv1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\li_st1.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\li_st1_over.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\line1_px.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\markers.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\nav.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\next.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\prev.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\px1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\services01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\services02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\services03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\services04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\social_ic1.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\social_ic2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\social_ic3.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\social_ic4.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\splash00.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\splash01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\splash02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\splash03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\splash04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\splash05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\splash06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\sponsors01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\sponsors02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\submenu.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\submit.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\video01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\images\video_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\index.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\js\Jplayer.swf" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\js\cform.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\js\googleMap.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\js\html5.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\js\jcarousellite_1.0.1.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\js\jquery-1.6.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\js\jquery.animate-colors-min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\js\jquery.easing.1.3.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\js\jquery.event.frame.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\js\jquery.jparallax.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\js\jquery.jplayer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\js\jquery.jscrollpane.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\js\jquery.mousewheel.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\js\jquery.prettyPhoto.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\js\jquery.transform.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\js\mag.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\js\main.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\js\mwheelIntent.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\js\script.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\js\superfish.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\ilia\AngularProjects\didka\public_template\js\switcher.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app.js" afterPath="$PROJECT_DIR$/public/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/services/profile.js" afterPath="$PROJECT_DIR$/public/js/services/profile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="didka.iws" />
@@ -37,41 +802,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public_template/index.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33333334" vertical-offset="9992" max-vertical-offset="11339">
-              <caret line="598" column="22" selection-start-line="598" selection-start-column="22" selection-end-line="598" selection-end-column="22" />
+            <state vertical-scroll-proportion="-7.6923075" vertical-offset="667" max-vertical-offset="3808">
+              <caret line="80" column="29" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
+              <folding>
+                <element signature="tag#head#0;tag#html#0" expanded="false" />
+                <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4184514" vertical-offset="205" max-vertical-offset="1156">
+              <caret line="27" column="93" selection-start-line="27" selection-start-column="93" selection-end-line="27" selection-end-column="93" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public_template/js/main.js">
+      <file leaf-file-name="public.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/states/public/public.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="697">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+              <folding>
+                <marker date="1462792411647" expanded="true" signature="137:252" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/states/public/profile/profile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="187">
+              <caret line="0" column="91" selection-start-line="0" selection-start-column="91" selection-end-line="0" selection-end-column="91" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mag.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public_template/js/mag.js">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/styles/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1887">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state vertical-scroll-proportion="-6.892857" vertical-offset="708" max-vertical-offset="31841">
+              <caret line="53" column="8" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public_template/js/script.js">
+      <file leaf-file-name="profile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/states/public/profile/profile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="6105" max-vertical-offset="6681">
-              <caret line="386" column="2" selection-start-line="386" selection-start-column="2" selection-end-line="386" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+              <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -108,14 +908,10 @@
         <option value="$PROJECT_DIR$/routes/article.js" />
         <option value="$PROJECT_DIR$/public/js/services/article.js" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
-        <option value="$PROJECT_DIR$/public/js/services/profile.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/states/admin/article/article-search.html" />
         <option value="$PROJECT_DIR$/public/states/admin/article/article-new.html" />
         <option value="$PROJECT_DIR$/public/states/admin/article/article-current.html" />
         <option value="$PROJECT_DIR$/public/states/admin/profile/profile.html" />
-        <option value="$PROJECT_DIR$/public/js/app.js" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/routes/profile.js" />
         <option value="$PROJECT_DIR$/public/states/admin/profile/profile.js" />
         <option value="$PROJECT_DIR$/public/states/admin/category/category.html" />
@@ -124,20 +920,34 @@
         <option value="$PROJECT_DIR$/public_template/css/jquery.jscrollpane.css" />
         <option value="$PROJECT_DIR$/public_template/css/jplayer.css" />
         <option value="$PROJECT_DIR$/public_template/js.js" />
-        <option value="$PROJECT_DIR$/public_template/css/style.css" />
-        <option value="$PROJECT_DIR$/public_template/index.html" />
         <option value="$PROJECT_DIR$/public_template/js/main.js" />
         <option value="$PROJECT_DIR$/public_template/js/script.js" />
         <option value="$PROJECT_DIR$/public_template/js/mag.js" />
+        <option value="$PROJECT_DIR$/public_template/css/shortcodes.css" />
+        <option value="$PROJECT_DIR$/public_template/css/style.css" />
+        <option value="$PROJECT_DIR$/public_template/js/mobile-menu.js" />
+        <option value="$PROJECT_DIR$/public_template/css/styles/style.css" />
+        <option value="$PROJECT_DIR$/public_template/index.html" />
+        <option value="$PROJECT_DIR$/admin/package.json" />
+        <option value="$PROJECT_DIR$/public/js/services/profile.js" />
+        <option value="$PROJECT_DIR$/public/states/public/article/article.js" />
+        <option value="$PROJECT_DIR$/admin/states/admin/profile/profile.js" />
+        <option value="$PROJECT_DIR$/public/states/public/profile/profile.js" />
+        <option value="$PROJECT_DIR$/public/js/app.js" />
+        <option value="$PROJECT_DIR$/public/states/public/profile/profile.html" />
+        <option value="$PROJECT_DIR$/public/css/styles/style.css" />
+        <option value="$PROJECT_DIR$/public/states/public/public.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="1" />
-    <option name="width" value="1364" />
-    <option name="height" value="726" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -165,6 +975,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -193,7 +1004,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public_template" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -207,32 +1018,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public_template" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="states" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../textAngular-1.5.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\ilia\AngularProjects\didka\public\states\admin\profile" />
-      <recent name="E:\ilia\AngularProjects\didka\public\js\services" />
-      <recent name="E:\ilia\AngularProjects\didka\routes" />
-      <recent name="E:\ilia\AngularProjects\didka\public\states\admin\article" />
-      <recent name="E:\ilia\AngularProjects\didka\public\js\directives" />
+      <recent name="E:\ilia\AngularProjects\didka\public\states\public" />
+      <recent name="E:\ilia\AngularProjects\didka\public\js\lib" />
+      <recent name="E:\ilia\AngularProjects\didka\public\states\public\article" />
+      <recent name="E:\ilia\AngularProjects\didka\public\states\public\profile" />
+      <recent name="E:\ilia\AngularProjects\didka\public\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ilia\AngularProjects\didka\public\js\lib" />
+      <recent name="E:\ilia\AngularProjects\didka\IDEI" />
+      <recent name="E:\ilia\AngularProjects\didka\public_template" />
+      <recent name="E:\ilia\AngularProjects\didka\public_template\js" />
+      <recent name="E:\ilia\AngularProjects\didka\public_template\css" />
     </key>
   </component>
   <component name="RunManager">
@@ -253,15 +1074,15 @@
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-env-vars>false</pass-parent-env-vars>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -280,7 +1101,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1364" height="726" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -289,19 +1110,19 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25296736" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16983895" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -334,69 +1155,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/states/admin/article/article-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="442">
-          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1513">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/states/admin/article/article.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="2125">
-          <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/states/admin/article/article-new.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="850">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="408">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/states/admin/history/history.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/states/admin/history/history.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/services/noty.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58219177" vertical-offset="0" max-vertical-offset="629">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/category.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
@@ -404,124 +1162,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/services/category.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/states/admin/category/category.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/services/sound.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64415157" vertical-offset="357" max-vertical-offset="1037">
-          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/directives/datetime-range.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/directives/media-preview.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30212015" vertical-offset="798" max-vertical-offset="2244">
-          <caret line="57" column="6" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/services/file.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/states/admin/article/article.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="357">
-          <caret line="15" column="114" selection-start-line="15" selection-start-column="103" selection-end-line="15" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="307" max-vertical-offset="901">
-          <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/states/admin/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/services/article.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/states/admin/article/article.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35749587" vertical-offset="123" max-vertical-offset="833">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/services/profile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537" vertical-offset="816" max-vertical-offset="2261">
-          <caret line="121" column="61" selection-start-line="121" selection-start-column="61" selection-end-line="121" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/file.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
           <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/states/admin/article/article-new.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="952">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/states/admin/profile/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
-          <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1513">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -546,24 +1190,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.eslintrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/start.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="205" max-vertical-offset="1156">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -581,113 +1211,205 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/states/admin/profile/profile.js">
+    <entry file="file://$PROJECT_DIR$/.eslintrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="464" max-vertical-offset="1071">
-          <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/states/admin/article/article-current.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614" vertical-offset="187" max-vertical-offset="952">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/IDEI/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/states/admin/article/article-list.html">
+    <entry file="file://$PROJECT_DIR$/public/js/lib/angular.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="442">
-          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/states/admin/article/article-search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="289">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/states/admin/category/category.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="833">
-          <caret line="10" column="71" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_template/css/prettyPhoto.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.96464646" vertical-offset="2317" max-vertical-offset="2992">
-          <caret line="170" column="51" selection-start-line="170" selection-start-column="51" selection-end-line="170" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_template/css/jquery.jscrollpane.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.94398683" vertical-offset="1620" max-vertical-offset="2295">
-          <caret line="129" column="1" selection-start-line="129" selection-start-column="1" selection-end-line="129" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_template/css/jplayer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7924217" vertical-offset="0" max-vertical-offset="1190">
-          <caret line="64" column="10" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_template/js/jquery.jplayer.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.714286" vertical-offset="407" max-vertical-offset="1734">
-          <caret line="35" column="373" selection-start-line="35" selection-start-column="371" selection-end-line="35" selection-end-column="373" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_template/css/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83196044" vertical-offset="277" max-vertical-offset="884">
-          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="524841">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_template/css/style.css">
+    <entry file="file://$PROJECT_DIR$/admin/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08585858" vertical-offset="0" max-vertical-offset="5491">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.029259896" vertical-offset="0" max-vertical-offset="581">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_template/js/script.js">
+    <entry file="file://$PROJECT_DIR$/public/js/directives/upload.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6105" max-vertical-offset="6681">
-          <caret line="386" column="2" selection-start-line="386" selection-start-column="2" selection-end-line="386" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_template/js/main.js">
+    <entry file="file://$PROJECT_DIR$/public/js/lib/jquery-2.2.3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="697">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="167212">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_template/js/mag.js">
+    <entry file="file://$PROJECT_DIR$/public/states/public/article/article.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1887">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.16803955" vertical-offset="0" max-vertical-offset="2907">
+          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_template/index.html">
+    <entry file="file://$PROJECT_DIR$/admin/states/admin/profile/profile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="9992" max-vertical-offset="11339">
-          <caret line="598" column="22" selection-start-line="598" selection-start-column="22" selection-end-line="598" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.30807248" vertical-offset="0" max-vertical-offset="1071">
+          <caret line="11" column="80" selection-start-line="11" selection-start-column="80" selection-end-line="50" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/services/article.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/services/profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <marker date="1462788754140" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/states/admin/article/article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34595525" vertical-offset="411" max-vertical-offset="3298">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="41" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/lib/textAngular.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3383">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/states/admin/profile/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.807693" vertical-offset="864" max-vertical-offset="1547">
+          <caret line="75" column="23" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08401977" vertical-offset="0" max-vertical-offset="2142">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/states/public/profile/profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/states/public/profile/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="581">
+          <caret line="0" column="91" selection-start-line="0" selection-start-column="91" selection-end-line="0" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/styles/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="45" max-vertical-offset="1428">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/styles/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.45634267" vertical-offset="277" max-vertical-offset="884">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.892857" vertical-offset="708" max-vertical-offset="31841">
+          <caret line="53" column="8" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/states/admin/article/article.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72817135" vertical-offset="2244" max-vertical-offset="2907">
+          <caret line="158" column="5" selection-start-line="158" selection-start-column="5" selection-end-line="162" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/states/public/public.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding>
+            <marker date="1462792411647" expanded="true" signature="137:252" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.6923075" vertical-offset="667" max-vertical-offset="3808">
+          <caret line="80" column="29" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
+          <folding>
+            <element signature="tag#head#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4184514" vertical-offset="205" max-vertical-offset="1156">
+          <caret line="27" column="93" selection-start-line="27" selection-start-column="93" selection-end-line="27" selection-end-column="93" />
           <folding />
         </state>
       </provider>
