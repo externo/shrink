@@ -61,7 +61,7 @@
 
 <!--</div>-->
 
-<header id="header" ng-controller="PublicController">
+<header id="header" ng-controller="PublicController as Public">
 
   <div class="wrapper">
 
@@ -77,35 +77,19 @@
     </aside>
 
     <nav>
-      <ul id="menu-main-navigation" class="menu" ng-repeat="category in Public.categories">
-        <li>{{category.name}}</li>
-        <!--<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item current_page_item">-->
-          <!--<a href="#">ЗА МЕН</a></li>-->
-        <!--<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item current_page_item">-->
-          <!--<a href="#">{{category.name}}</a></li>-->
-        <!--<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-78">-->
-          <!--<a href="http://www.livingwellcounselling.ca/our-therapists/">Our Therapists</a>-->
-          <!--<ul class="sub-menu">-->
-            <!--<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80"><a-->
-              <!--href="http://www.livingwellcounselling.ca/our-therapists/jennifer-dawn-watts/">Jennifer Dawn Watts, MA</a>-->
-            <!--</li>-->
-            <!--<li id="menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83"><a-->
-              <!--href="http://www.livingwellcounselling.ca/our-therapists/cathy-mccurdy/">Cathy McCurdy, MA, RSW</a></li>-->
-            <!--<li id="menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85"><a-->
-              <!--href="http://www.livingwellcounselling.ca/our-therapists/jenn-betts/">Jenn Betts, MA</a></li>-->
-            <!--<li id="menu-item-272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-272"><a-->
-              <!--href="http://www.livingwellcounselling.ca/our-therapists/erika/">Erika Dawn Mohle, MSc</a></li>-->
-            <!--<li id="menu-item-548" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-548"><a-->
-              <!--href="http://www.livingwellcounselling.ca/our-therapists/karla-reimer/">Karla Reimer, MA</a></li>-->
-            <!--<li id="menu-item-1074" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1074"><a-->
-              <!--href="http://www.livingwellcounselling.ca/our-therapists/robyn-manzano/">Robyn Manzano, MA</a></li>-->
-            <!--<li id="menu-item-1260" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1260"><a-->
-              <!--href="http://www.livingwellcounselling.ca/our-therapists/farah-premji-msc/">Farah Premji, MSc</a></li>-->
-            <!--<li id="menu-item-1520" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1520"><a-->
-              <!--href="http://www.livingwellcounselling.ca/our-therapists/aziza-giga-hirji/">Aziza Giga-Hirji MSW, RSW</a>-->
-            <!--</li>-->
-          <!--</ul>-->
-        <!--</li>-->
+      <ul id="menu-main-navigation" class="menu">
+        <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item current_page_item">
+          <a href="#">ЗА МЕН</a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item current_page_item"
+          ng-repeat="category in Public.categories">
+          <a href="#">{{category.name}}</a>
+          <ul class="sub-menu">
+            <li class="menu-item menu-item-type-post_type menu-item-object-page"
+                ng-repeat="article in Public.articles | filter: category.name">
+              <a href="http://www.livingwellcounselling.ca/our-therapists/robyn-manzano/">{{article.title}}</a>
+            </li>
+          </ul>
+        </li>
       </ul>
     </nav>
 
