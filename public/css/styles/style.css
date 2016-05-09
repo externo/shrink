@@ -368,6 +368,17 @@ hr {
 
 }
 
+/* wrapper */
+
+.wrapper nav{
+
+  maX-width: 960px;
+
+  margin: 0 auto;
+  z-index: 50;
+
+}
+
 /* disabled javascript */
 
 .noscript {
@@ -760,7 +771,7 @@ hr {
 
   padding: 10px 0 20px;
 
-  z-index: 999;
+  z-index: 20;
 
   min-width: 320px;
 
