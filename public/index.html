@@ -44,13 +44,10 @@
 <header id="header">
 
   <div class="wrapper">
-
-    <div id="logo" href="http://www.livingwellcounselling.ca">
-      <p>sfgljhfdskfjhsdkjfh</p>
+    <span id="tagline">Димитрина Пеева психолог-психотерапевт гр.Враца</span>
+    <div id="logo" ng-click="Public.generateNote()">
+      <p>{{Public.randomNote}}</p>
     </div>
-
-    <span id="tagline">Live free</span>
-
     <nav>
       <ul id="menu-main-navigation" class="">
         <li class="">
@@ -65,7 +62,6 @@
         </li>
       </ul>
     </nav>
-
     <span id="line"></span>
 
   </div>
@@ -208,6 +204,7 @@
 <!-- AngularJS services -->
 <script src="js/services/article.js"></script>
 <script src="js/services/category.js"></script>
+<script src="js/services/note.js"></script>
 <script src="js/services/profile.js"></script>
 <!-- AngularJS controllers -->
 <script src="states/public/public.js"></script>

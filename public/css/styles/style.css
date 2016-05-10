@@ -120,6 +120,7 @@ a .faq-button {
   position: relative;
 
   outline: none;
+  font-family: Arial, Helvetica, Sans Serif;
 
 }
 
@@ -420,12 +421,12 @@ hr {
 
 @font-face {
 
-  font-family: 'Conv_BentonSans Book';
+  font-family: 'Basic_font';
 
   src: url('../fonts/BentonSans Book.eot');
 
   src: local('вє'), url('../fonts/BentonSans Book.woff') format('woff'),
-  url('../fonts/BentonSans Book.ttf') format('truetype'),
+  url('../fonts/ATLANTID.ttf') format('truetype'),
   url('../fonts/BentonSans Book.svg') format('svg');
 
   font-weight: normal;
@@ -436,12 +437,12 @@ hr {
 
 @font-face {
 
-  font-family: 'Conv_BentonSans Light';
+  font-family: 'Secondary_font';
 
   src: url('../fonts/BentonSans Light.eot');
 
   src: local('вє'), url('../fonts/BentonSans Light.woff') format('woff'),
-  url('../fonts/BentonSans Light.ttf') format('truetype'),
+  url('../fonts/Azbuka02.ttf') format('truetype'),
   url('../fonts/BentonSans Light.svg') format('svg');
 
   font-weight: normal;
@@ -452,12 +453,12 @@ hr {
 
 @font-face {
 
-  font-family: 'Conv_BentonSans Regular';
+  font-family: 'Special_font';
 
   src: url('../fonts/BentonSans Regular.eot');
 
   src: local('вє'), url('../fonts/BentonSans Regular.woff') format('woff'),
-  url('../fonts/BentonSans Regular.ttf') format('truetype'),
+  url('../fonts/Arvo-Regular.ttf') format('truetype'),
   url('../fonts/BentonSans Regular.svg') format('svg');
 
   font-weight: normal;
@@ -496,7 +497,7 @@ hr {
   width: 0;
   height: 350px;
   padding-left: 512px;
-  /*background-image: url(../images/sticky.gif);*/
+  /* background-image: url(../images/sticky.gif); */
   background-image: url(../images/logo.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -506,44 +507,55 @@ hr {
   display: block;
   z-index: 20;
   left: -100px;
-  top: 120px;
+  top: 210px;
+  cursor: pointer;
 }
 
 #header #logo p{
-  width: 200;
+  width: 200px;
   height: 350px;
-  padding-left: 280px;
+  padding-left: 250px;
   position: absolute;
   overflow: hidden;
   display: block;
   z-index: 20;
   left: -100px;
-  top: 120px;
+  top: 95px;
   color: #55621d;
+  font-family: Special_font;
+  font-size: 20px;
+
+  transform: rotate(2deg);
+  /* Safari */
+  -webkit-transform: rotate(2deg);
+  /* Firefox */
+  -moz-transform: rotate(2deg);
+  /* IE */
+  -ms-transform: rotate(2deg);
+  /* Opera */
+  -o-transform: rotate(2deg);
 }
 
 #header #tagline {
-
-  width: 0;
-
-  height: 188px;
-
-  padding-left: 284px;
-
-  background-image: url(../images/tagline.png);
-
+  width: 260px;
+  height: 190px;
+  padding-left: 146px;
+  /* background-image: url(../images/tagline.png); */
   position: absolute;
-
-  overflow: hidden;
-
+  /* overflow: hidden; */
   display: block;
-
   z-index: 10;
+  left: -120px;
+  top: 110px;
 
-  left: -11px;
+  font-family: Secondary_font;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #55621d;
+  -webkit-text-fill-color: #fdf8ad;
+  line-height: 40px;
 
-  top: 397px;
-
+  font-size: 24px;
+  text-align: center;
 }
 
 #header #line {
@@ -618,7 +630,7 @@ hr {
 
   letter-spacing: 1.20px;
 
-  font-family: 'Open Sans';
+  font-family: Basic_font;
 
   text-transform: uppercase;
 
@@ -790,6 +802,7 @@ hr {
   padding: 10px;
   background-color: #7c883e;
   opacity: 0.8;
+  text-decoration-color: #fdf8ad;
   color:#fdf8ad;
 }
 
@@ -1243,7 +1256,7 @@ hr {
 
 #footer nav li a {
 
-  font-family: 'Conv_BentonSans Book';
+  font-family: 'Basic_font';
 
   text-shadow: 0 0 2px #777c53;
 

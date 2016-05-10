@@ -4,18 +4,12 @@ angular
   .module('app')
   .controller('PublicController', PublicController);
 
-function PublicController(ProfileService, CategoryService, ArticleService) {
+function PublicController(ProfileService, CategoryService, ArticleService, NoteService) {
 
   var Public = this;
+  var publicNotesLength
 
   ArticleService.findAll(function (response) {
-    //var articlesLength = response.length;
-    //if (articlesLength) {
-    //  articlesLength > 1 ? NotyService.info('Заредени са ' + response.length + ' статии') : NotyService.info('Заредена е 1 статия');
-    //} else {
-    //  NotyService.info('Няма добавени статии');
-    //  NotyService.success('Добавете статия чрез бутона [Добави]');
-    //}
     Public.articles = response;
   });
 
@@ -23,8 +17,19 @@ function PublicController(ProfileService, CategoryService, ArticleService) {
     Public.categories = response;
   });
 
+  NoteService.findAll(function (response) {
+    Public.notes = response;
+    publicNotesLength = Public.notes.length;
+    Public.generateNote();
+  });
+
   ProfileService.find('572cdf4596cd65c2e7dcf311', function (res) {
     Public.currentProfile = res;
   });
+
+  Public.generateNote = function () {
+    var randomIndex = Math.floor((Math.random() * publicNotesLength));
+    Public.randomNote = Public.notes[randomIndex].name;
+  }
 
 }
