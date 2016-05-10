@@ -4,7 +4,7 @@ angular
   .module('app')
   .controller('PublicController', PublicController);
 
-function PublicController(CategoryService, ArticleService) {
+function PublicController(ProfileService, CategoryService, ArticleService) {
 
   var Public = this;
 
@@ -21,6 +21,10 @@ function PublicController(CategoryService, ArticleService) {
 
   CategoryService.findAll(function (response) {
     Public.categories = response;
+  });
+
+  ProfileService.find('572cdf4596cd65c2e7dcf311', function (res) {
+    Public.currentProfile = res;
   });
 
 }

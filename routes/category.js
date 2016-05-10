@@ -10,7 +10,6 @@ module.exports = function (app, mongo, db) {
   });
 
   app.post('/admin/category', function (req, res) {
-    console.log(req.body);
     db.collection('categories').insertOne(
       req.body,
       function (err, result) {

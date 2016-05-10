@@ -8,12 +8,12 @@
   <title>Психотерапевт Д.Пеева</title>
 
   <!--<link rel="shortcut icon" href="favicon.ico" />-->
-  <link rel="stylesheet" href="css/styles/style.css" type="text/css" media="screen"/>
   <link rel="pingback" href="http://www.livingwellcounselling.ca/82hza/xmlrpc.php"/>
   <link rel='stylesheet' href='css/styles/font.css' type='text/css'>
   <link rel='stylesheet' id='contact-form-7-css' href='css/styles/styles.css' type='text/css' media='all'/>
   <link rel='stylesheet' id='layerslider_css-css' href='css/styles/layerslider.css' type='text/css' media='all'/>
   <link rel='stylesheet' id='jetpack_css-css' href='css/styles/jetpack.css' type='text/css' media='all'/>
+  <link rel="stylesheet" href="css/styles/style.css" type="text/css" media="screen"/>
 
   <script type='text/javascript' src='js/lib/jquery-2.2.3.js'></script>
   <script type='text/javascript' src='js/lib/jquery-migrate-1.3.0.min.js'></script>
@@ -33,7 +33,7 @@
   <script src='js/lib/textAngular.min.js'></script>
 </head>
 
-<body ng-app="app">
+<body ng-app="app" ng-controller="PublicController as Public">
 
 <noscript>
   <div class="noscript">
@@ -41,52 +41,25 @@
   </div>
 </noscript>
 
-<!--<div class="top-hat">-->
-
-<!--<div class="top-hat-container">-->
-
-<!--<!--<a href="http://www.livingwellcounselling.ca/psychologistcalgary/" alt="FAQ Registered Psychologist Counsellor" title="FAQ Registered Psychologist Counsellor" target="_self"> <img class="request-button" src="css/images/faq-button.png" alt="FAQ Registered Psychologist Counsellor Button" title="FAQ Registered Psychologist Counsellor Button" /> </a><a href="http://www.livingwellcounselling.ca/request/" alt="Request an Appointment" title="Request an Appointment" target="_self"> <img class="request-button" src="css/images/request-button.png" alt="Request an Appointment Button" title="Request an Appointment Button" /> </a>-->
-
-<!--<ul id="top-social">-->
-
-<!--<a class="fd" href="/feed"></a>-->
-
-<!--<a class="fb" href="https://www.facebook.com/pages/Living-Well-Counselling-Services/177162065665108" target="_blank"></a>-->
-
-<!--<a class="tw" href="http://twitter.com/jennwatts" target="_blank"></a>-->
-
-<!--</ul>-->
-
-<!--</div>-->
-
-<!--</div>-->
-
-<header id="header" ng-controller="PublicController as Public">
+<header id="header">
 
   <div class="wrapper">
 
-    <a id="logo" href="http://www.livingwellcounselling.ca">Living Well Counselling &#8211; Calgary Counselling
-      Services</a>
+    <div id="logo" href="http://www.livingwellcounselling.ca">
+      <p>sfgljhfdskfjhsdkjfh</p>
+    </div>
 
     <span id="tagline">Live free</span>
 
-    <aside id='sidebar' class='page clearit'>
-      <p>At Living Well, therapy is not simply about overcoming problems. As you face your current challenges, and
-        become more and more free, you may realize that you are called to something greater. To life and fully
-        living, and to becoming even more of your true self.</p>
-    </aside>
-
     <nav>
-      <ul id="menu-main-navigation" class="menu">
-        <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item current_page_item">
-          <a href="#">ЗА МЕН</a></li>
-        <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item current_page_item"
-          ng-repeat="category in Public.categories">
+      <ul id="menu-main-navigation" class="">
+        <li class="">
+          <a href="#" ng-click="Public.article=null">ЗА МЕН</a></li>
+        <li class="menu-item-has-children" ng-repeat="category in Public.categories">
           <a href="#">{{category.name}}</a>
-          <ul class="sub-menu">
-            <li class="menu-item menu-item-type-post_type menu-item-object-page"
-                ng-repeat="article in Public.articles | filter: category.name">
-              <a href="http://www.livingwellcounselling.ca/our-therapists/robyn-manzano/">{{article.title}}</a>
+          <ul class="">
+            <li class="" ng-repeat="article in Public.articles | filter: category.name">
+              <a href="" ng-click="Public.article=article">{{article.title}}</a>
             </li>
           </ul>
         </li>
@@ -100,8 +73,22 @@
 </header>
 
 <div id="primary">
-  <div ng-view class="wrapper"></div>
+
+  <div class="wrapper">
+
+    <article id='content' class='page' ng-bind-html="Public.currentProfile.presentation" ng-hide="Public.article">
+      <div class='clear'></div>
+    </article>
+    <article id='content' class='page' ng-bind-html="Public.article.content" ng-show="Public.article">
+      <div class='clear'></div>
+    </article>
+    <aside id='sidebar' class='page clearit'></aside>
+    <div class="clear"></div>
+
+  </div>
+
 </div>
+
 
 <footer id="footer" class="home">
   <div class="wrapper">
@@ -208,6 +195,7 @@
   </div>
 </div>
 <div style="display:none"></div>
+
 <script type='text/javascript' src='js/lib/jquery.form.min.js'></script>
 <script type='text/javascript' src='js/lib/scripts.js'></script>
 <script type='text/javascript' src='js/lib/devicepx-jetpack.js'></script>

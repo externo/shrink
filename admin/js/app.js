@@ -26,6 +26,10 @@ angular
       templateUrl: '/states/admin/category/category.html',
       controller: 'CategoryController as Category'
     });
+    $routeProvider.when('/admin/note', {
+      templateUrl: '/states/admin/note/note.html',
+      controller: 'NoteController as Note'
+    });
     $routeProvider.when('/admin/file', {
       templateUrl: '/states/admin/file/file.html',
       controller: 'FileController as File'

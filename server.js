@@ -47,6 +47,7 @@ MongoClient.connect(connectionUrl, function (err, database) {
   // routes
   require('./routes/article')(app, mongo, db);
   require('./routes/category')(app, mongo, db);
+  require('./routes/note')(app, mongo, db);
   require('./routes/file')(app, mongo, gfs, busboy);
   require('./routes/history')(app, db);
   require('./routes/profile')(app, mongo, db);
