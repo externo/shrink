@@ -22,7 +22,8 @@
           <select class="form-control" ng-model="Article.currentArticle.category">
             <option value="" disabled>КАТЕОГОРИЯ</option>
             <option ng-repeat="category in Article.categories | orderBy: 'name'"
-                    ng-selected="category._id==Article.currentArticle.category">
+                    ng-selected="category._id==Article.currentArticle.category"
+                    value="{{category._id}}">
               {{category.name}}</option>
           </select>
         </div>

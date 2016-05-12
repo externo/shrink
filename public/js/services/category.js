@@ -8,7 +8,8 @@ function CategoryService($http, baseUrl) {
 
   return {
     findAll: findAll,
-    find: find
+    find: find,
+    findArticles: findArticles
   };
 
   function findAll(callback) {
@@ -18,6 +19,11 @@ function CategoryService($http, baseUrl) {
 
   function find(id, callback) {
     $http.get(baseUrl + '/admin/category/' + id)
+      .success(callback);
+  }
+
+  function findArticles(id, callback) {
+    $http.get(baseUrl + '/admin/category/' + id + '/article')
       .success(callback);
   }
 }

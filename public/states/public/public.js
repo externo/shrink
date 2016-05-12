@@ -11,16 +11,16 @@ function PublicController(baseUrl, ProfileService, CategoryService, ArticleServi
 
   Public.baseUrl = baseUrl;
 
-  ArticleService.findAll(function (response) {
-    Public.articles = response;
+  ArticleService.findAll(function (res) {
+    Public.articles = res;
   });
 
-  CategoryService.findAll(function (response) {
-    Public.categories = response;
+  CategoryService.findAll(function (res) {
+    Public.categories = res;
   });
 
-  NoteService.findAll(function (response) {
-    Public.notes = response;
+  NoteService.findAll(function (res) {
+    Public.notes = res;
     publicNotesLength = Public.notes.length;
     Public.generateNote();
   });

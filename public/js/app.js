@@ -9,7 +9,7 @@ angular
       templateUrl: 'states/public/profile/profile.html',
       controller: 'ProfileController as Profile'
     });
-    $routeProvider.when('/category/:categoryId', {
+    $routeProvider.when('/category/:categoryId/article', {
       templateUrl: 'states/public/category/category.html',
       controller: 'CategoryController as Category'
     });

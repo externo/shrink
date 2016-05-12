@@ -4,18 +4,18 @@ angular
   .module('app')
   .controller('CategoryController', CategoryController);
 
-function CategoryController($routeParams, ArticleService, CategoryService) {
+function CategoryController($routeParams, CategoryService) {
 
   var Category = this;
 
   Category.categoryId = $routeParams.categoryId;
 
-  CategoryService.findAll(function (response) {
-    Category.categories = response;
+  CategoryService.findAll(function (res) {
+    Category.categories = res;
   });
 
-  ArticleService.findAll(function (response) {
-    Category.articles = response;
+  CategoryService.findArticles($routeParams.categoryId, function (res) {
+    Category.articles = res;
   });
 
 }

@@ -423,11 +423,11 @@ hr {
 
   font-family: 'Basic_font';
 
-  src: url('../fonts/BentonSans Book.eot');
+  /*src: url('../fonts/BentonSans Book.eot');*/
 
-  src: local('вє'), url('../fonts/BentonSans Book.woff') format('woff'),
+  /*src: local('вє'), url('../fonts/BentonSans Book.woff') format('woff'),*/
   url('../fonts/ATLANTID.ttf') format('truetype'),
-  url('../fonts/BentonSans Book.svg') format('svg');
+  /*url('../fonts/BentonSans Book.svg') format('svg');*/
 
   font-weight: normal;
 
@@ -439,11 +439,11 @@ hr {
 
   font-family: 'Secondary_font';
 
-  src: url('../fonts/BentonSans Light.eot');
+  /*src: url('../fonts/BentonSans Light.eot');*/
 
-  src: local('вє'), url('../fonts/BentonSans Light.woff') format('woff'),
+  /*src: local('вє'), url('../fonts/BentonSans Light.woff') format('woff'),*/
   url('../fonts/Azbuka02.ttf') format('truetype'),
-  url('../fonts/BentonSans Light.svg') format('svg');
+  /*url('../fonts/BentonSans Light.svg') format('svg');*/
 
   font-weight: normal;
 
@@ -455,11 +455,11 @@ hr {
 
   font-family: 'Special_font';
 
-  src: url('../fonts/BentonSans Regular.eot');
+  /*src: url('../fonts/BentonSans Regular.eot');*/
 
-  src: local('вє'), url('../fonts/BentonSans Regular.woff') format('woff'),
+  /*src: local('вє'), url('../fonts/BentonSans Regular.woff') format('woff'),*/
   url('../fonts/Arvo-Regular.ttf') format('truetype'),
-  url('../fonts/BentonSans Regular.svg') format('svg');
+  /*url('../fonts/BentonSans Regular.svg') format('svg');*/
 
   font-weight: normal;
 

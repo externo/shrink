@@ -55,7 +55,7 @@
           <a href="#profile">ЗА МЕН</a>
         </li>
         <li class="menu-item-has-children" ng-repeat="category in Public.categories">
-          <a href="#article" ng-click="Public.category=category.name">{{category.name}}</a>
+          <a href="#category/{{category._id}}/article">{{category.name}}</a>
           <ul class="">
             <li class="" ng-repeat="article in Public.articles | filter: category.name">
               <a href="#article/{{article._id}}">{{article.title}}</a>
