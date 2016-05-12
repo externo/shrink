@@ -4,10 +4,12 @@ angular
   .module('app')
   .controller('PublicController', PublicController);
 
-function PublicController(ProfileService, CategoryService, ArticleService, NoteService) {
+function PublicController(baseUrl, ProfileService, CategoryService, ArticleService, NoteService) {
 
   var Public = this;
-  var publicNotesLength
+  var publicNotesLength;
+
+  Public.baseUrl = baseUrl;
 
   ArticleService.findAll(function (response) {
     Public.articles = response;
@@ -21,10 +23,6 @@ function PublicController(ProfileService, CategoryService, ArticleService, NoteS
     Public.notes = response;
     publicNotesLength = Public.notes.length;
     Public.generateNote();
-  });
-
-  ProfileService.find('572cdf4596cd65c2e7dcf311', function (res) {
-    Public.currentProfile = res;
   });
 
   Public.generateNote = function () {

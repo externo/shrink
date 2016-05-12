@@ -13,14 +13,14 @@ function NoteController(NoteService, NotyService) {
   Note.addNote = function () {
     NoteService.create(Note.note, function(response){
       Note.notes = response;
-      NotyService.success('Бележка' + Note.note.name + ' е добавена');
+      NotyService.success('Бележка ' + Note.note.name + ' е добавена');
     });
   };
 
   Note.removeNote = function (id) {
     NoteService.remove(id, function(response){
       Note.notes = response;
-      NotyService.error('Бележка' + Note.note.name + ' е премахната');
+      NotyService.error('Бележка ' + Note.note.name + ' е премахната');
     });
   };
 

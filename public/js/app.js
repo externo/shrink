@@ -5,15 +5,19 @@ angular
   .constant('baseUrl', 'http://didka-kataraga.rhcloud.com')
   //.constant('baseUrl', '')
   .config(function ($routeProvider) {
-    $routeProvider.when('/', {
+    $routeProvider.when('/profile', {
       templateUrl: 'states/public/profile/profile.html',
       controller: 'ProfileController as Profile'
     });
-    $routeProvider.when('/article', {
+    $routeProvider.when('/category/:categoryId', {
+      templateUrl: 'states/public/category/category.html',
+      controller: 'CategoryController as Category'
+    });
+    $routeProvider.when('/article/:articleId', {
       templateUrl: 'states/public/article/article.html',
       controller: 'ArticleController as Article'
     });
-    $routeProvider.otherwise(
-      {redirectTo: '/'}
-    );
+    //$routeProvider.otherwise(
+    //  {redirectTo: '/profile'}
+    //);
   });

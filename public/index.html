@@ -45,18 +45,20 @@
 
   <div class="wrapper">
     <span id="tagline">Димитрина Пеева психолог-психотерапевт гр.Враца</span>
-    <div id="logo" ng-click="Public.generateNote()">
-      <p>{{Public.randomNote}}</p>
+    <div id="logo"></div>
+    <div id="sticky">
+      <p ng-click="Public.generateNote()">{{Public.randomNote}}</p>
     </div>
     <nav>
       <ul id="menu-main-navigation" class="">
         <li class="">
-          <a href="#" ng-click="Public.article=null">ЗА МЕН</a></li>
+          <a href="#profile">ЗА МЕН</a>
+        </li>
         <li class="menu-item-has-children" ng-repeat="category in Public.categories">
-          <a href="#">{{category.name}}</a>
+          <a href="#article" ng-click="Public.category=category.name">{{category.name}}</a>
           <ul class="">
             <li class="" ng-repeat="article in Public.articles | filter: category.name">
-              <a href="" ng-click="Public.article=article">{{article.title}}</a>
+              <a href="#article/{{article._id}}">{{article.title}}</a>
             </li>
           </ul>
         </li>
@@ -72,12 +74,8 @@
 
   <div class="wrapper">
 
-    <article id='content' class='page' ng-bind-html="Public.currentProfile.presentation" ng-hide="Public.article">
-      <div class='clear'></div>
-    </article>
-    <article id='content' class='page' ng-bind-html="Public.article.content" ng-show="Public.article">
-      <div class='clear'></div>
-    </article>
+    <article ng-view id='content' class='page'></article>
+
     <aside id='sidebar' class='page clearit'></aside>
     <div class="clear"></div>
 
@@ -89,7 +87,8 @@
 <footer id="footer" class="home">
   <div class="wrapper">
     <span id='request'>
-      <a href='/request'>Request an Appointment</a>
+      <a href='https://www.facebook.com/pages/Via-Animae-%D0%BF%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8-%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%82%D0%B0%D1%86%D0%B8%D0%B8-%D0%B8-%D0%BF%D1%81%D0%B8%D1%85%D0%BE%D1%82%D0%B5%D1%80%D0%B0%D0%BF%D0%B8%D1%8F/589749777808897?fref=ts'>
+        Кабинет Via Animae</a>
     </span>
     <nav>
       <ul id="menu-main-navigation-1" class="menu">
@@ -209,6 +208,7 @@
 <!-- AngularJS controllers -->
 <script src="states/public/public.js"></script>
 <script src="states/public/profile/profile.js"></script>
+<script src="states/public/category/category.js"></script>
 <script src="states/public/article/article.js"></script>
 <!-- Notifications -->
 <!--<script src="../public/node_modules/noty/js/noty/packaged/jquery.noty.packaged.js"></script>-->

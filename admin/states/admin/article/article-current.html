@@ -21,7 +21,9 @@
           <div class="input-group-addon"><i class="fa fa-files-o"></i></div>
           <select class="form-control" ng-model="Article.currentArticle.category">
             <option value="" disabled>КАТЕОГОРИЯ</option>
-            <option ng-repeat="category in Article.categories | orderBy: 'name'">{{category.name}}</option>
+            <option ng-repeat="category in Article.categories | orderBy: 'name'"
+                    ng-selected="category._id==Article.currentArticle.category">
+              {{category.name}}</option>
           </select>
         </div>
         <div class="input-group">

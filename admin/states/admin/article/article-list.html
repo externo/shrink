@@ -1,8 +1,7 @@
 <table class="table table-striped table-bordered table-hover">
   <thead>
   <tr>
-    <th ng-click="orderByField='info.number'; reverseSort = !reverseSort">Категория <i class="fa fa-sort"></i></th>
-    <th ng-click="orderByField='info.type'; reverseSort = !reverseSort">Заглавие <i class="fa fa-sort"></i></th>
+    <th ng-click="orderByField='info.title'; reverseSort = !reverseSort">Заглавие <i class="fa fa-sort"></i></th>
     <th ng-click="orderByField='info.datetime'; reverseSort = !reverseSort">Дата <i class="fa fa-sort"></i></th>
   </tr>
   </thead>
@@ -13,7 +12,6 @@
                 orderBy:orderByField:'info.datetime'"
       ng-click="Article.getArticle(article._id)"
       ng-if="Article.inRange(article.info.datetime, Article.search.datetime)">
-    <td>{{article.category}}</td>
     <td>{{article.title}}</td>
     <td>{{article.datetime | date: "dd.MM.yyyy / HH:mm"}}</td>
   </tr>
