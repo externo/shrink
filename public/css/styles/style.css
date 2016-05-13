@@ -423,11 +423,11 @@ hr {
 
   font-family: 'Basic_font';
 
-  /*src: url('../fonts/BentonSans Book.eot');*/
+  src: url('../fonts/BentonSans Book.eot');
 
-  /*src: local('вє'), url('../fonts/BentonSans Book.woff') format('woff'),*/
+  src: local('вє'), url('../fonts/BentonSans Book.woff') format('woff'),
   url('../fonts/ATLANTID.ttf') format('truetype'),
-  /*url('../fonts/BentonSans Book.svg') format('svg');*/
+  url('../fonts/BentonSans Book.svg') format('svg');
 
   font-weight: normal;
 
@@ -439,11 +439,11 @@ hr {
 
   font-family: 'Secondary_font';
 
-  /*src: url('../fonts/BentonSans Light.eot');*/
+  src: url('../fonts/BentonSans Light.eot');
 
-  /*src: local('вє'), url('../fonts/BentonSans Light.woff') format('woff'),*/
+  src: local('вє'), url('../fonts/BentonSans Light.woff') format('woff'),
   url('../fonts/Azbuka02.ttf') format('truetype'),
-  /*url('../fonts/BentonSans Light.svg') format('svg');*/
+  url('../fonts/BentonSans Light.svg') format('svg');
 
   font-weight: normal;
 
@@ -455,11 +455,11 @@ hr {
 
   font-family: 'Special_font';
 
-  /*src: url('../fonts/BentonSans Regular.eot');*/
+  src: url('../fonts/BentonSans Regular.eot');
 
-  /*src: local('вє'), url('../fonts/BentonSans Regular.woff') format('woff'),*/
+  src: local('вє'), url('../fonts/BentonSans Regular.woff') format('woff'),
   url('../fonts/Arvo-Regular.ttf') format('truetype'),
-  /*url('../fonts/BentonSans Regular.svg') format('svg');*/
+  url('../fonts/BentonSans Regular.svg') format('svg');
 
   font-weight: normal;
 
@@ -494,8 +494,8 @@ hr {
 }
 
 #header #logo {
-  width: 0;
-  height: 100px;
+  width: 139px;
+  height: 160px;
   padding-left: 165px;
   background-image: url(../images/logo.png);
   background-repeat: no-repeat;
@@ -504,8 +504,23 @@ hr {
   overflow: hidden;
   display: block;
   z-index: 20;
-  left: 77px;
-  top: 269px;
+  left: 10px;
+  top: 250px;
+}
+
+#header #logo p{
+  width: 290px;
+  height: 158px;
+  text-align: center;
+  line-height: 32px;
+  font-family: Secondary_font;
+  font-size: 24px;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #55621d;
+  -webkit-text-fill-color: #fdf8ad;
+  text-shadow: rgb(0, 85, 0) 0px 0px 8px;
+  left: -160px;
+  top: 95px;
 }
 
 #header #sticky {
@@ -522,7 +537,7 @@ hr {
   display: block;
   z-index: 20;
   left: -30px;
-  top: 300px;
+  top: 428px;
 }
 
 #header #sticky p{
@@ -564,6 +579,7 @@ hr {
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: #55621d;
   -webkit-text-fill-color: #fdf8ad;
+  text-shadow: rgb(0, 85, 0) 0px 0px 16px;
   line-height: 40px;
 
   font-size: 24px;
@@ -818,7 +834,7 @@ hr {
 }
 
 #content .article{
-  max-height: 150px;
+  max-height: 250px;
   background-color: #7c883e;
   opacity: 0.8;
   color:#fdf8ad;
@@ -826,6 +842,10 @@ hr {
   padding: 10px;
   text-align: justify;
   overflow: hidden;
+}
+
+.article a{
+  text-decoration: none;
 }
 
 #content .currentArticle{
@@ -839,12 +859,12 @@ hr {
 
 #content .article img{
   border: double 5px #fdf8ad;
-  max-width: 25%;
+  max-width: 50%;
 }
 
 #content .currentArticle img, #profileImage{
   border: double 5px #fdf8ad;
-  max-width: 50%;
+  max-width: 100%;
 }
 
 #content .article h3{
@@ -1425,6 +1445,11 @@ select:hover {
   clear: right;
 }
 
+#header{z-index:auto}
+#primary{z-index:auto}
+#header nav li a{font-size:24px;padding:5px 0}
+#header nav li:hover ul{z-index:1001}
+
 @media only screen and (max-width: 1200px) {
 
   .wrapper {
@@ -1475,21 +1500,22 @@ select:hover {
     display: none;
   }
 
-  #slider {
-    top: 190px;
+  #primary {
+    top: 100px;
+  }
+
+  #header #sticky {
+    top: 22px;
   }
 
   #header #logo {
-    top: 20px
+    top: 20px;
+    left: 55%;
   }
 
   #footer #social {
     left: 67px;
     top: 108px;
-  }
-
-  #header #logo {
-    left: 163px;
   }
 
 }
@@ -1625,7 +1651,3 @@ select:hover {
   color: #FFFFFF !important;
 
 }
-#header{z-index:auto}
-#primary{z-index:auto}
-#header nav li a{font-size:24px;padding:5px 0}
-#header nav li:hover ul{z-index:1001}

@@ -4,9 +4,11 @@ angular
   .module('app')
   .controller('CategoryController', CategoryController);
 
-function CategoryController($routeParams, CategoryService) {
+function CategoryController($routeParams, baseUrl, CategoryService) {
 
   var Category = this;
+
+  Category.baseUrl = baseUrl;
 
   Category.categoryId = $routeParams.categoryId;
 

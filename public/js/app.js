@@ -17,7 +17,7 @@ angular
       templateUrl: 'states/public/article/article.html',
       controller: 'ArticleController as Article'
     });
-    //$routeProvider.otherwise(
-    //  {redirectTo: '/profile'}
-    //);
+    $routeProvider.otherwise(
+      {redirectTo: '/profile'}
+    );
   });

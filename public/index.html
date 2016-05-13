@@ -45,7 +45,9 @@
 
   <div class="wrapper">
     <span id="tagline">Димитрина Пеева психолог-психотерапевт гр.Враца</span>
-    <div id="logo"></div>
+    <div id="logo">
+      <p>Да намерим пътя <br/> към себе си и към другите</p>
+    </div>
     <div id="sticky">
       <p ng-click="Public.generateNote()">{{Public.randomNote}}</p>
     </div>
@@ -92,33 +94,15 @@
     </span>
     <nav>
       <ul id="menu-main-navigation-1" class="menu">
-        <li
-          class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-55 current_page_item menu-item-57">
-          <a href="http://www.livingwellcounselling.ca/">Home</a></li>
-        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58">
-          <a href="http://www.livingwellcounselling.ca/about/">About</a></li>
-        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59">
-          <a href="http://www.livingwellcounselling.ca/services/">Services</a></li>
-        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60">
-          <a href="http://www.livingwellcounselling.ca/rates/">Rates</a></li>
-        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61">
-          <a href="http://www.livingwellcounselling.ca/resource/">Resources</a></li>
-        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-78">
-          <a href="http://www.livingwellcounselling.ca/our-therapists/">Our Therapists</a></li>
-        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-901">
-          <a href="http://www.livingwellcounselling.ca/home/blog/">Blog</a></li>
-        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79">
-          <a href="http://www.livingwellcounselling.ca/contact/">Contact</a></li>
+        <li class="">
+          <a href="#profile">ЗА МЕН</a>
+        </li>
+        <li class="" ng-repeat="category in Public.categories">
+          <a href="#category/{{category._id}}/article">{{category.name}}</a>
+        </li>
       </ul>
     </nav>
-    <div id="copyright">
-      Website &amp; Contents &copy; Living Well Counselling Services, All Rights Reserved,
-      Design by <a href="http://aromawebdesign.com" target="_blank" rel="nofollow">AromaWebDesign.com</a> |
-      <a href="http://orcabaymedia.ca" target="_blank">Programming</a> by
-      <a href="http://orcabaymedia.ca" target="_blank">Orca Bay Media</a> |
-      <a href="http://www.livingwellcounselling.ca/sitemap/">Sitemap</a> |
-      <a href="https://plus.google.com/106597134173340671890" rel="publisher">Google+</a>
-    </div>
+    <div id="copyright">Copyright © 2014-2016 <a href="http://kataraga.com" target="_blank">Kataraga Studio</a>. All rights reserved.</div>
   </div>
 </footer>
 
@@ -128,44 +112,12 @@
 
   <div class="menu-main-navigation-container">
     <ul id="menu-main-navigation-2" class="responsive-menu">
-      <li
-        class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-55 current_page_item menu-item-57">
-        <a href="http://www.livingwellcounselling.ca/">Home</a></li>
-      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58"><a
-        href="http://www.livingwellcounselling.ca/about/">About</a></li>
-      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59"><a
-        href="http://www.livingwellcounselling.ca/services/">Services</a></li>
-      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60"><a
-        href="http://www.livingwellcounselling.ca/rates/">Rates</a></li>
-      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61"><a
-        href="http://www.livingwellcounselling.ca/resource/">Resources</a></li>
-      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-78"><a
-        href="http://www.livingwellcounselling.ca/our-therapists/">Our Therapists</a>
-        <ul class="sub-menu">
-          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80"><a
-            href="http://www.livingwellcounselling.ca/our-therapists/jennifer-dawn-watts/">Jennifer Dawn Watts, MA</a>
-          </li>
-          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83"><a
-            href="http://www.livingwellcounselling.ca/our-therapists/cathy-mccurdy/">Cathy McCurdy, MA, RSW</a></li>
-          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85"><a
-            href="http://www.livingwellcounselling.ca/our-therapists/jenn-betts/">Jenn Betts, MA</a></li>
-          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-272"><a
-            href="http://www.livingwellcounselling.ca/our-therapists/erika/">Erika Dawn Mohle, MSc</a></li>
-          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-548"><a
-            href="http://www.livingwellcounselling.ca/our-therapists/karla-reimer/">Karla Reimer, MA</a></li>
-          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1074"><a
-            href="http://www.livingwellcounselling.ca/our-therapists/robyn-manzano/">Robyn Manzano, MA</a></li>
-          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1260"><a
-            href="http://www.livingwellcounselling.ca/our-therapists/farah-premji-msc/">Farah Premji, MSc</a></li>
-          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1520"><a
-            href="http://www.livingwellcounselling.ca/our-therapists/aziza-giga-hirji/">Aziza Giga-Hirji MSW, RSW</a>
-          </li>
-        </ul>
+      <li class="">
+        <a href="#profile">ЗА МЕН</a>
       </li>
-      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-901"><a
-        href="http://www.livingwellcounselling.ca/home/blog/">Blog</a></li>
-      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79"><a
-        href="http://www.livingwellcounselling.ca/contact/">Contact</a></li>
+      <li class="" ng-repeat="category in Public.categories">
+        <a href="#category/{{category._id}}/article">{{category.name}}</a>
+      </li>
     </ul>
   </div>
   <form action="http://www.livingwellcounselling.ca" id="responsiveSearch" method="get" role="search">
