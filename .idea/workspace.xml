@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8a19397-f6ee-4abc-8c3d-643144aa8402" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app.js" afterPath="$PROJECT_DIR$/public/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/states/public/article/article.html" afterPath="$PROJECT_DIR$/public/states/public/article/article.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/states/public/article/article.js" afterPath="$PROJECT_DIR$/public/states/public/article/article.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/states/public/category/category.html" afterPath="$PROJECT_DIR$/public/states/public/category/category.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/states/public/category/category.js" afterPath="$PROJECT_DIR$/public/states/public/category/category.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/states/public/profile/profile.html" afterPath="$PROJECT_DIR$/public/states/public/profile/profile.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/styles/style.css" afterPath="$PROJECT_DIR$/public/css/styles/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="didka.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,13 +42,11 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/styles/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57990116" vertical-offset="24723" max-vertical-offset="25568">
-              <caret line="1507" column="11" selection-start-line="1507" selection-start-column="11" selection-end-line="1507" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.33333334" vertical-offset="9378" max-vertical-offset="27574">
+              <caret line="563" column="12" selection-start-line="563" selection-start-column="9" selection-end-line="563" selection-end-column="12" />
               <folding>
-                <element signature="e#16517#16768#0" expanded="false" />
-                <element signature="e#16770#16901#0" expanded="false" />
-                <element signature="e#17263#17476#0" expanded="false" />
-                <element signature="e#17478#18776#0" expanded="false" />
+                <element signature="e#16420#16671#0" expanded="false" />
+                <element signature="e#16673#16804#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -263,7 +253,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nodejs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cdgevropeicheta.tk" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
@@ -740,13 +730,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57990116" vertical-offset="24723" max-vertical-offset="25568">
-          <caret line="1507" column="11" selection-start-line="1507" selection-start-column="11" selection-end-line="1507" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="9378" max-vertical-offset="27574">
+          <caret line="563" column="12" selection-start-line="563" selection-start-column="9" selection-end-line="563" selection-end-column="12" />
           <folding>
-            <element signature="e#16517#16768#0" expanded="false" />
-            <element signature="e#16770#16901#0" expanded="false" />
-            <element signature="e#17263#17476#0" expanded="false" />
-            <element signature="e#17478#18776#0" expanded="false" />
+            <element signature="e#16420#16671#0" expanded="false" />
+            <element signature="e#16673#16804#0" expanded="false" />
           </folding>
         </state>
       </provider>
