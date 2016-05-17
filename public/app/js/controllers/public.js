@@ -1,10 +1,4 @@
-'use strict';
-
-angular
-  .module('app')
-  .controller('PublicController', PublicController);
-
-function PublicController(baseUrl, ProfileService, CategoryService, ArticleService, NoteService) {
+module.exports = function(baseUrl, CategoryService, ArticleService, NoteService) {
 
   var Public = this;
   var publicNotesLength;
@@ -30,4 +24,4 @@ function PublicController(baseUrl, ProfileService, CategoryService, ArticleServi
     Public.randomNote = Public.notes[randomIndex].name;
   }
 
-}
+};

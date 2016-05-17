@@ -1,10 +1,4 @@
-'use strict';
-
-angular
-  .module('app')
-  .factory('NoteService', NoteService);
-
-function NoteService($http, baseUrl) {
+module.exports = function($http, baseUrl) {
 
   return {
     create: create,

@@ -1,10 +1,4 @@
-'use strict';
-
-angular
-  .module('app')
-  .factory('CategoryService', CategoryService);
-
-function CategoryService($http, baseUrl) {
+module.exports = function($http, baseUrl) {
 
   return {
     findAll: findAll,
@@ -26,4 +20,5 @@ function CategoryService($http, baseUrl) {
     $http.get(baseUrl + '/admin/category/' + id + '/article')
       .success(callback);
   }
-}
+
+};

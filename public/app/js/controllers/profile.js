@@ -1,10 +1,4 @@
-'use strict';
-
-angular
-  .module('app')
-  .controller('ProfileController', ProfileController);
-
-function ProfileController(baseUrl, ProfileService) {
+module.exports = function(baseUrl, ProfileService) {
 
   var Profile = this;
 
@@ -14,4 +8,4 @@ function ProfileController(baseUrl, ProfileService) {
     Profile.currentProfile = res;
   });
 
-}
+};

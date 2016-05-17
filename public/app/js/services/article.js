@@ -1,10 +1,4 @@
-'use strict';
-
-angular
-  .module('app')
-  .factory('ArticleService', ArticleService);
-
-function ArticleService($http, baseUrl) {
+module.exports = function($http, baseUrl) {
 
   return {
     findAll: findAll,
@@ -21,4 +15,4 @@ function ArticleService($http, baseUrl) {
       .success(callback);
   }
 
-}
+};

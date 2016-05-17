@@ -1,10 +1,4 @@
-'use strict';
-
-angular
-  .module('app')
-  .controller('ArticleController', ArticleController);
-
-function ArticleController($routeParams, baseUrl, ArticleService) {
+module.exports = function($routeParams, baseUrl, ArticleService) {
 
   var Article = this;
 
@@ -14,4 +8,4 @@ function ArticleController($routeParams, baseUrl, ArticleService) {
     Article.currentArticle = res;
   });
 
-}
+};

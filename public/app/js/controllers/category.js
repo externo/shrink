@@ -1,10 +1,4 @@
-'use strict';
-
-angular
-  .module('app')
-  .controller('CategoryController', CategoryController);
-
-function CategoryController($routeParams, baseUrl, CategoryService) {
+module.exports = function($routeParams, baseUrl, CategoryService) {
 
   var Category = this;
 
@@ -20,4 +14,4 @@ function CategoryController($routeParams, baseUrl, CategoryService) {
     Category.articles = res;
   });
 
-}
+};

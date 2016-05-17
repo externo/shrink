@@ -423,11 +423,11 @@ hr {
 
   font-family: 'Basic_font';
 
-  src: url('../fonts/BentonSans Book.eot');
+  src: url('../fonts/ATLANTID.eot');
 
-  src: local('Ð²Â˜Ñ”'), url('../fonts/BentonSans Book.woff') format('woff'),
+  src: url('../fonts/ATLANTID.woff') format('woff'),
   url('../fonts/ATLANTID.ttf') format('truetype'),
-  url('../fonts/BentonSans Book.svg') format('svg');
+  url('../fonts/ATLANTID.svg') format('svg');
 
   font-weight: normal;
 
@@ -439,11 +439,11 @@ hr {
 
   font-family: 'Secondary_font';
 
-  src: url('../fonts/BentonSans Light.eot');
+  src: url('../fonts/Azbuka02.eot');
 
-  src: local('Ð²Â˜Ñ”'), url('../fonts/BentonSans Light.woff') format('woff'),
+  src: url('../fonts/Azbuka02.woff') format('woff'),
   url('../fonts/Azbuka02.ttf') format('truetype'),
-  url('../fonts/BentonSans Light.svg') format('svg');
+  url('../fonts/Azbuka02.svg') format('svg');
 
   font-weight: normal;
 
@@ -451,21 +451,21 @@ hr {
 
 }
 
-@font-face {
+/*@font-face {*/
 
-  font-family: 'Special_font';
+  /*font-family: 'Special_font';*/
 
-  src: url('../fonts/BentonSans Regular.eot');
+  /*src: url('../fonts/BentonSans Regular.eot');*/
 
-  src: local('Ð²Â˜Ñ”'), url('../fonts/BentonSans Regular.woff') format('woff'),
-  url('../fonts/Arvo-Regular.ttf') format('truetype'),
-  url('../fonts/BentonSans Regular.svg') format('svg');
+  /*src: local('Ð²Â˜Ñ”'), url('../fonts/BentonSans Regular.woff') format('woff'),*/
+  /*url('../fonts/Arvo-Regular.ttf') format('truetype'),*/
+  /*url('../fonts/BentonSans Regular.svg') format('svg');*/
 
-  font-weight: normal;
+  /*font-weight: normal;*/
 
-  font-style: normal;
+  /*font-style: normal;*/
 
-}
+/*}*/
 
 /* = Header
 
