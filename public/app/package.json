@@ -11,6 +11,7 @@
   "dependencies": {
     "angular": "^1.5.5",
     "angular-route": "^1.5.5",
+    "jquery": "^2.2.3",
     "textangular": "^1.5.1"
   }
 }
