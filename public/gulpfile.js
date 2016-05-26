@@ -3,14 +3,14 @@ var gulp = require('gulp');
 
 // plugins
 var connect = require('gulp-connect');
-var jshint = require('gulp-jshint');
+//var jshint = require('gulp-jshint');
 var uglify = require('gulp-uglify');
 var minifyCSS = require('gulp-minify-css');
 var minifyHTML = require('gulp-htmlmin');
 var clean = require('gulp-clean');
 var browserify = require('gulp-browserify');
 var concat = require('gulp-concat');
-var gzip = require('gulp-gzip');
+//var gzip = require('gulp-gzip');
 var runSequence = require('run-sequence');
 
 // tasks
@@ -34,8 +34,7 @@ gulp.task('minify-css', function() {
   var opts = {comments:true,spare:true};
   gulp.src(['./app/assets/styles/*.css'])
     .pipe(concat('all.css'))
-    .pipe(minifyCSS(opts))
-    //.pipe(gzip())
+    .pipe(minifyCSS(opts))    //.pipe(gzip())
     .pipe(gulp.dest('./dist/assets/styles'));
 });
 gulp.task('copy-assets', function () {
@@ -52,7 +51,7 @@ gulp.task('browserify-js', function() {
     .pipe(gulp.dest('./app'));
 });
 gulp.task('minify-js', function() {
-  gulp.src(['app/node_modules/jquery/dist/jquery.js', 'app/bundled.js', 'app/js/lib/mobile-menu.js'])
+  gulp.src(['app/js/lib/jquery.js', 'app/bundled.js', 'app/js/lib/mobile-menu.js'])
     .pipe(concat('all.js'))
     .pipe(uglify({
       // inSourceMap:
