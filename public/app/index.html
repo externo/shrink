@@ -39,11 +39,6 @@
         </li>
         <li class="menu-item-has-children" ng-repeat="category in Public.categories">
           <a href="#category/{{category._id}}/article">{{category.name}}</a>
-          <ul class="">
-            <li class="" ng-repeat="article in Public.articles | filter: category.name">
-              <a href="#article/{{article._id}}">{{article.title}}</a>
-            </li>
-          </ul>
         </li>
       </ul>
     </nav>
