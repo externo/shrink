@@ -25,7 +25,7 @@ var authCheck = jwt({
 
 //app.use(express.static(__dirname + '/admin'));
 app.use(function(req, res, next) {
-  res.setHeader("Access-Control-Allow-Origin", "http://dimitrinapeeva.com");
+  res.setHeader("Access-Control-Allow-Origin", "null");
   //res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Access-Control-Allow-Headers", "Authorization, Origin, X-Requested-With, Content-Type, Accept, Key, filename, Metadata, header");
   res.setHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
