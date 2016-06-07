@@ -22,9 +22,9 @@ module.exports = function (app, mongo, db) {
   });
 
   app.put('/admin/user/:id', function (req, res) {
-    var articleId = new mongo.ObjectID(req.params.id);
+    var profileId = new mongo.ObjectID(req.params.id);
     db.collection('users').updateOne(
-      {"_id": articleId},
+      {"_id": profileId},
       {
         $set: {
           name: req.body.name,
