@@ -1,5 +1,5 @@
-var ip = process.env.OPENSHIFT_NODEJS_IP || 'localhost';
-var port = process.env.OPENSHIFT_NODEJS_PORT || 3000;
+var ip = 'localhost';
+var port = 3001;
 
 var busboy = require('busboy');
 var express = require('express');
@@ -25,17 +25,16 @@ var authCheck = jwt({
 
 //app.use(express.static(__dirname + '/admin'));
 app.use(function(req, res, next) {
-  //res.setHeader("Access-Control-Allow-Origin", "http://admin.dimitrinapeeva.com");
-  //res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Access-Control-Allow-Headers", "Authorization, Origin, X-Requested-With, Content-Type, Accept, Key, filename, Metadata, header");
   res.setHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
+  //res.setHeader("Access-Control-Allow-Origin", "http://public.dimitrinapeeva.com");
+  res.setHeader("Access-Control-Allow-Origin", "*");
   next();
 });
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
-var mongoUrl = process.env.OPENSHIFT_MONGODB_DB_URL;
-var connectionUrl = mongoUrl || 'mongodb://localhost/didka';
+var connectionUrl = 'mongodb://127.0.0.1:27017/didka';
 
 // Initialize connection once
 MongoClient.connect(connectionUrl, function (err, database) {

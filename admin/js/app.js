@@ -2,7 +2,7 @@
 
 angular
   .module('app', ['ngRoute', 'textAngular', 'auth0', 'angular-storage', 'angular-jwt'])
-  .constant('baseUrl', 'http://didka-kataraga.rhcloud.com')
+  .constant('baseUrl', 'http://didka.dimitrinapeeva.com')
   //.constant('baseUrl', '')
   .config(function ($httpProvider, $routeProvider, $provide, authProvider, jwtInterceptorProvider) {
 

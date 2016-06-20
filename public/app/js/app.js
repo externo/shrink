@@ -25,7 +25,7 @@
     'ngSanitize',
     'textAngular'
   ])
-    .constant('baseUrl', 'http://didka-kataraga.rhcloud.com')
+    .constant('baseUrl', 'http://didka.dimitrinapeeva.com')
     //.constant('baseUrl', '')
     .config([
       '$locationProvider',
