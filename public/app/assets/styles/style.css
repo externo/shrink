@@ -829,6 +829,16 @@ hr {
     max-width: 50%;
 }
 
+#content .article .read-more {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #7c883e;
+    z-index: 5;
+    font-size: 1.3em;
+    padding: 5px 15px;
+}
+
 #content .article h3 {
     margin: 0;
     overflow: hidden;
