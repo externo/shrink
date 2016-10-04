@@ -26,12 +26,13 @@
 
   <div class="wrapper">
     <span id="tagline">Димитрина Пеева психолог-психотерапевт гр.Враца</span>
-    <div id="logo">
-      <p>Да намерим пътя <br/> към себе си и към другите</p>
-    </div>
-    <div id="sticky">
-      <p ng-click="Public.generateNote()">{{Public.randomNote}}</p>
-    </div>
+    <!--<div id="logo">-->
+      <!--<p>Да намерим пътя <br/> към себе си и към другите</p>-->
+    <!--</div>-->
+
+    <!--<div id="sticky">-->
+      <!--<p ng-click="Public.generateNote()">{{Public.randomNote}}</p>-->
+    <!--</div>-->
     <nav>
       <ul id="menu-main-navigation" class="">
         <li class="">
@@ -39,6 +40,9 @@
         </li>
         <li class="menu-item-has-children" ng-repeat="category in Public.categories">
           <a href="#category/{{category._id}}/article">{{category.name}}</a>
+        </li>
+        <li class="">
+          <a href="#contacts">КОНТАКТИ</a>
         </li>
       </ul>
     </nav>
@@ -49,12 +53,13 @@
 </header>
 
 <div id="primary">
-
   <div class="wrapper">
-
     <article ng-view id='content' class='page'></article>
 
+    <div id="thoughts"><p ng-click="Public.generateNote()">{{Public.randomNote}}</p></div>
+
     <aside id='sidebar' class='page clearit'></aside>
+
     <div class="clear"></div>
 
   </div>

@@ -1,4 +1,21 @@
 <div>
-  <img id="profileImage" class="alignright" ng-src="{{Profile.baseUrl}}/admin/file/{{Profile.currentProfile.image}}"/>
-  <div ng-bind-html="Profile.currentProfile.presentation"></div>
+    <ul rn-carousel rn-carousel-easing rn-carousel-auto-slide="2" rn-carousel-controls-allow-loop class="image">
+        <li>
+            <div class="layer">
+                <img class="profileImage" ng-src="{{Profile.baseUrl}}/admin/file/{{Profile.currentProfile.image}}"/>
+            </div>
+        </li>
+        <li>
+            <div class="layer">
+                <img class="profileImage" ng-src="{{Profile.baseUrl}}/admin/file/{{Profile.currentProfile.image}}"/>
+            </div>
+        </li>
+        <li>
+            <div class="layer">
+                <img class="profileImage" ng-src="{{Profile.baseUrl}}/admin/file/{{Profile.currentProfile.image}}"/>
+            </div>
+        </li>
+    </ul>
+    <!--<img id="profileImage" class="alignright" ng-src="{{Profile.baseUrl}}/admin/file/{{Profile.currentProfile.image}}"/>-->
+    <div ng-bind-html="Profile.currentProfile.presentation"></div>
 </div>

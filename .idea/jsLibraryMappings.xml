@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="file://$PROJECT_DIR$" libraries="{didka node_modules}" />
+    <file url="file://$PROJECT_DIR$" libraries="{shrink/node_modules}" />
+    <file url="file://$PROJECT_DIR$/admin" libraries="{shrink/admin/node_modules}" />
+    <file url="file://$PROJECT_DIR$/public" libraries="{shrink/public/node_modules}" />
+    <file url="file://$PROJECT_DIR$/public/app" libraries="{shrink/public/app/node_modules}" />
   </component>
 </project>
-

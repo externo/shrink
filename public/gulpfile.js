@@ -10,6 +10,7 @@ var minifyHTML = require('gulp-htmlmin');
 var clean = require('gulp-clean');
 var browserify = require('gulp-browserify');
 var concat = require('gulp-concat');
+var watch = require('gulp-watch');
 //var gzip = require('gulp-gzip');
 var runSequence = require('run-sequence');
 
